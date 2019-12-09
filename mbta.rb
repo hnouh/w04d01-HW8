@@ -31,7 +31,7 @@ subwayLines = [
     ]
   ]
   
-  def stopsBetweenStations(startLine, startStation, endLine, endStation)
+  def stops_between_stations(startLine, startStation, endLine, endStation)
 
      $startStationIndex = (startLine).index(startStation)
 
@@ -55,7 +55,7 @@ subwayLines = [
 
   end
 
+stops_between_stations(Red, 'Alewife', Red, 'Park Street').to_s+" stops" # 3 stops
+stops_between_stations(Red, 'Alewife', Orange, 'Downtown Crossing').to_s+" stops" # 5 stops
+stops_between_stations(Red, 'South Station', Green, 'Kenmore').to_s+" stops" # 7 stops
   
-puts stopsBetweenStations(Red, 'Alewife', Red, 'Alewife').to_s+" stops"
-puts stopsBetweenStations(Red, 'Alewife', Red, 'South Station').to_s+" stops"  
-puts stopsBetweenStations(Red, 'Central', Green, 'Arlington').to_s+" stops"

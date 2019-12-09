@@ -2,19 +2,19 @@
 subwayLines = [
     Red= [
       "South Station",
-      "Park Street",
       "Kendall",
       "Central",
       "Harvard",
+      "Park Street",
       "Porter",
       "Davis",
       "Alewife"
     ],
     Green= [
       "Government Center",
-      "Park Street",
       "Boylston",
       "Arlington",
+      "Park Street",
       "Copley",
       "Hynes",
       "Kenmore"
@@ -22,10 +22,10 @@ subwayLines = [
     Orange= [
       "North Station",
       "Haymarket",
-      "Park Street",
       "State",
       "Downtown Crossing",
       "Chinatown",
+      "Park Street",
       "Back Bay",
       "Forest Hills"
     ]
